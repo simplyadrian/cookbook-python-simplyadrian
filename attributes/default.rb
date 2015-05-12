@@ -1,3 +1,3 @@
 #
 # Python packages
-default['python_nativex']['packages'] = {}
+default['python_simplyadrian']['packages'] = {}

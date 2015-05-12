@@ -1,4 +1,4 @@
-python-nativex Cookbook
+python-simplyadrian Cookbook
 =======================
 Install python and includes specified packages.
 
@@ -8,9 +8,9 @@ Depends on the python community cookbook.
 
 Attributes
 ----------
-default['python_nativex']['packages'] = {}
+default['python_simplyadrian']['packages'] = {}
 
-#### python-nativex::default
+#### python-simplyadrian::default
 <table>
   <tr>
     <th>Key</th>
@@ -19,7 +19,7 @@ default['python_nativex']['packages'] = {}
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['python-nativex']['packages']</tt></td>
+    <td><tt>['python-simplyadrian']['packages']</tt></td>
     <td>Array</td>
     <td>Additional python packages to install on a node.</td>
     <td><tt>empty</tt></td>
@@ -28,11 +28,11 @@ default['python_nativex']['packages'] = {}
 
 Usage
 -----
-#### python-nativex::default
-Calls python-nativex::pippackages
+#### python-simplyadrian::default
+Calls python-simplyadrian::pippackages
 
 Example usage in a role cookbook adding several packages:
-node.default['python-nativex']['packages'] = ["pyyaml", "kombu", "lockfile", "asyncio", "paramiko", "boto", "awscli"]
+node.default['python-simplyadrian']['packages'] = ["pyyaml", "kombu", "lockfile", "asyncio", "paramiko", "boto", "awscli"]
 
 License and Authors
 -------------------
